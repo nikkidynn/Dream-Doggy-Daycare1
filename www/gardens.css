@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    margin-left: 20px;
+}
+
+body {
+    background-color: #F0EAD6;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: #325c3b;
+    background-image: linear-gradient(to bottom, #FFFFFF, #F4EC5E);
+    border: 2px solid #003300;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 5px 5px 2px ;
+}
+
+header {
+    background-color: #0110F5;
+    color: #FFFFFF;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #FFFFFF;
+}
+
+header a:visited {
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #142a18;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 3.2em;
+    letter-spacing: 0.25em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+nav {
+    float: left;
+    width: 160px;
+    padding: 1.5em;
+    font-size: 120%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #142a18;
+}
+
+nav a:visited {
+    color: #142a18;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+main {
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding: 1px 20px 20px 30px;
+    display: block;
+    overflow: auto;
+}
+
+h2 {
+    color: #000080;
+    text-shadow: 2px 2px #cccccc;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h3 {
+    color: #234229;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+    color: #234229;
+}
+
+footer {
+    margin-left: 190px;
+    background-color: #FFFFFF;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.resort {
+    color: #234229;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#homeimage {
+    height: 300px;
+    margin-left: 190px;
+    background-image: url(pucci.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contactimage {
+    height: 300px;
+    margin-left: 190px;
+    background-image: url(Image3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #0110F5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
